@@ -4,7 +4,7 @@
   "description": "typescript 类型体操",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create": "node ./scripts/quickCreate.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/qc-z/type-challenges#readme",
   "devDependencies": {
-    "@type-challenges/utils": "^0.1.1"
+    "@type-challenges/utils": "^0.1.1",
+    "@types/node": "^17.0.8",
+    "chalk": "4.0.0",
+    "inquirer": "^8.2.0"
   }
 }
